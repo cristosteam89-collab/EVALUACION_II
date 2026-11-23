@@ -4,14 +4,6 @@ body {
   color: #F5F2EB;
   background-color: #1A2126;
 }
-h1,
-h2,
-.logo,
-.contacto,
-.boton,
-footer {
-  font-family: "Montserrat", sans-serif;
-}
 .pagina {
   min-height: 100vh;
   padding: 30px 15px;
@@ -35,6 +27,7 @@ footer {
   margin-bottom: 8px;
 }
 .logo {
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 800;
 }
@@ -43,6 +36,7 @@ footer {
   font-size: 10px;
 }
 .contacto {
+  font-family: "Montserrat", sans-serif;
   display: none;
   color: #1A2126;
   background-color: #F5F2EB;
@@ -65,6 +59,7 @@ footer {
   margin-bottom: 8px;
 }
 .bienvenida h1 {
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   margin: 0 0 8px;
 }
@@ -74,6 +69,7 @@ footer {
   margin: 0 0 10px;
 }
 .boton {
+  font-family: "Montserrat", sans-serif;
   color: #1A2126;
   background-color: #F5F2EB;
   border-radius: 20px;
@@ -101,6 +97,7 @@ footer {
 }
 .tarjetas h2,
 .reportes h2 {
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 13px;
   margin: 0 0 8px;
@@ -133,6 +130,7 @@ footer {
   border-radius: 50%;
 }
 footer {
+  font-family: "Montserrat", sans-serif;
   min-height: 54px;
   padding: 10px 18px;
   display: flex;
