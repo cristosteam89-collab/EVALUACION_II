@@ -4,12 +4,10 @@ body {
   background: #1A2126;
   font-family: "Inter", sans-serif;
 }
-
 .pagina {
   min-height: 100vh;
   padding: 30px 15px;
 }
-
 .contenedor {
   max-width: 520px;
   margin: auto;
@@ -18,7 +16,6 @@ body {
   border-radius: 12px;
   background: #1A2126;
 }
-
 .encabezado {
   height: 42px;
   margin-bottom: 8px;
@@ -29,18 +26,15 @@ body {
   display: flex;
   align-items: center;
 }
-
 .logo {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 800;
 }
-
 .buscar {
   margin-left: auto;
   font-size: 10px;
 }
-
 .contacto {
   display: none;
   margin-left: auto;
@@ -52,7 +46,6 @@ body {
   font-size: 8px;
   text-decoration: none;
 }
-
 .bienvenida {
   min-height: 180px;
   margin-bottom: 8px;
@@ -66,7 +59,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .bienvenida h1 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -74,13 +66,11 @@ body {
   margin: 0 0 8px;
   font-size: 20px;
 }
-
 .bienvenida p {
   max-width: 400px;
   margin: 0 0 10px;
   font-size: 10px;
 }
-
 .boton {
   padding: 7px 15px;
   border-radius: 20px;
@@ -91,27 +81,31 @@ body {
   font-weight: 800;
   text-decoration: none;
 }
-
 .tarjetas {
   margin-bottom: 8px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
 }
-
-.tarjetas article,
-.reportes,
+.tarjetas article {
+  border: 1px solid #71808A;
+  border-radius: 8px;
+  background: #3A4750;
+}
+.reportes {
+  border: 1px solid #71808A;
+  border-radius: 8px;
+  background: #3A4750;
+}
 footer {
   border: 1px solid #71808A;
   border-radius: 8px;
   background: #3A4750;
 }
-
 .tarjetas article {
   min-height: 150px;
   padding: 10px;
 }
-
 .tarjetas h2 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -119,7 +113,6 @@ footer {
   margin: 0 0 8px;
   font-size: 13px;
 }
-
 .reportes h2 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -127,38 +120,34 @@ footer {
   margin: 0 0 8px;
   font-size: 13px;
 }
-
-.tarjetas p,
+.tarjetas p {
+  font-size: 10px;
+}
 .tarjetas li {
   font-size: 9px;
 }
-
 .reportes {
   margin-bottom: 8px;
   padding: 12px;
 }
-
 .imagenes {
   display: grid;
   grid-template-columns: 1.7fr 1fr;
   align-items: center;
   gap: 10px;
 }
-
 .mapa {
   width: 100%;
   height: 118px;
   border-radius: 5px;
   object-fit: cover;
 }
-
 .grafico {
   width: 112px;
   height: 112px;
   border-radius: 50%;
   justify-self: end;
 }
-
 footer {
   min-height: 54px;
   padding: 10px 18px;
@@ -168,44 +157,31 @@ footer {
   font-family: "Montserrat", sans-serif;
   font-size: 8px;
 }
-
-footer nav {
+.footer-texto {
   display: flex;
   gap: 12px;
 }
-
-footer a {
-  color: #F5F2EB;
-  text-decoration: none;
-}
-
 @media (max-width: 991px) {
   .contenedor {
     max-width: 350px;
   }
-
   .buscar {
     display: none;
   }
-
   .contacto {
     display: block;
   }
-
   .imagenes {
     grid-template-columns: 1fr;
   }
-
   .grafico {
     display: none;
   }
 }
-
 @media (max-width: 575px) {
   .pagina {
     padding: 16px 8px;
   }
-
   .contenedor {
     max-width: 300px;
   }
@@ -228,13 +204,5 @@ footer a {
   }
   .tarjetas ul {
     display: none;
-  }
-  footer,
-  footer nav {
-    flex-direction: column;
-    align-items: center;
-  }
-  footer {
-    gap: 8px;
   }
 }
