@@ -4,7 +4,6 @@ body {
   color: #F5F2EB;
   background-color: #1A2126;
 }
-
 h1,
 h2,
 .logo,
@@ -13,12 +12,10 @@ h2,
 footer {
   font-family: "Montserrat", sans-serif;
 }
-
 .pagina {
   min-height: 100vh;
   padding: 30px 15px;
 }
-
 .contenedor {
   max-width: 520px;
   margin: auto;
@@ -27,7 +24,6 @@ footer {
   background-color: #1A2126;
   padding: 10px;
 }
-
 .encabezado {
   height: 42px;
   border: 1px solid #71808A;
@@ -38,17 +34,14 @@ footer {
   padding: 0 12px;
   margin-bottom: 8px;
 }
-
 .logo {
   font-size: 12px;
   font-weight: 800;
 }
-
 .buscar {
   margin-left: auto;
   font-size: 10px;
 }
-
 .contacto {
   display: none;
   color: #1A2126;
@@ -58,7 +51,6 @@ footer {
   font-size: 8px;
   text-decoration: none;
 }
-
 .bienvenida {
   min-height: 180px;
   border: 1px solid #71808A;
@@ -72,18 +64,15 @@ footer {
   justify-content: center;
   margin-bottom: 8px;
 }
-
 .bienvenida h1 {
   font-size: 20px;
   margin: 0 0 8px;
 }
-
 .bienvenida p {
   max-width: 400px;
   font-size: 10px;
   margin: 0 0 10px;
 }
-
 .boton {
   color: #1A2126;
   background-color: #F5F2EB;
@@ -93,14 +82,12 @@ footer {
   font-weight: 800;
   text-decoration: none;
 }
-
 .tarjetas {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
   margin-bottom: 8px;
 }
-
 .tarjetas article,
 .reportes,
 footer {
@@ -108,12 +95,10 @@ footer {
   border-radius: 8px;
   background-color: #3A4750;
 }
-
 .tarjetas article {
   min-height: 150px;
   padding: 10px;
 }
-
 .tarjetas h2,
 .reportes h2 {
   text-align: center;
@@ -121,135 +106,96 @@ footer {
   margin: 0 0 8px;
   text-transform: uppercase;
 }
-
 .tarjetas p,
 .tarjetas li {
   font-size: 9px;
 }
-
 .reportes {
   padding: 12px;
   margin-bottom: 8px;
 }
-
 .imagenes {
   display: grid;
   grid-template-columns: 1.7fr 1fr;
   gap: 10px;
   align-items: center;
 }
-
 .mapa {
   width: 100%;
   height: 118px;
   object-fit: cover;
   border-radius: 5px;
 }
-
 .grafico {
   width: 112px;
   height: 112px;
   justify-self: end;
   border-radius: 50%;
 }
-
 footer {
   min-height: 54px;
   padding: 10px 18px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   font-size: 8px;
 }
-
-footer nav {
-  display: flex;
-  gap: 12px;
-}
-
-footer a {
-  color: #F5F2EB;
-  text-decoration: none;
-}
-
 @media (min-width: 576px) and (max-width: 991px) {
   .contenedor {
     max-width: 350px;
   }
-
   .buscar {
     display: none;
   }
-
   .contacto {
     display: block;
     margin-left: auto;
   }
-
   .imagenes {
     grid-template-columns: 1fr;
   }
-
   .grafico {
     display: none;
   }
 }
-
 @media (max-width: 575px) {
   .pagina {
     padding: 16px 8px;
   }
-
   .contenedor {
     max-width: 300px;
   }
-
   .encabezado {
     height: 70px;
     flex-direction: column;
     justify-content: center;
   }
-
   .buscar {
     display: none;
   }
-
   .contacto {
     display: block;
     margin-top: 6px;
   }
-
   .bienvenida h1 {
     font-size: 15px;
   }
-
   .tarjetas {
     grid-template-columns: 1fr;
   }
-
   .tarjetas article {
     min-height: 85px;
   }
-
   .tarjetas ul {
     display: none;
   }
-
   .imagenes {
     grid-template-columns: 1fr;
   }
-
   .grafico {
     display: none;
   }
-
   footer {
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  footer nav {
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
 }
